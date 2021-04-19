@@ -6,6 +6,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Assemblies</name>
 
+	<parent>
+		<groupId>aero.minova</groupId>
+		<artifactId>maven.root</artifactId>
+		<version>1.6.3</version>
+	</parent>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
@@ -16,12 +22,4 @@
 		<connection>scm:git:https://github.com/minova-afis/aero.minova.app.assemblies.git</connection>
 		<tag>v0.1.0</tag>
 	</scm>
-
-	<distributionManagement>
-		<repository>
-			<id>github</id>
-			<name>GitHub MINOVA Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
-		</repository>
-	</distributionManagement>
 </project>
