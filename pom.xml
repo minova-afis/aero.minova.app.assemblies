@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>aero.minova</groupId>
 	<artifactId>app.assemblies</artifactId>
-	<version>0.2.1-SNAPSHOT</version>
+	<version>0.3.0</version>
 	<name>Assemblies</name>
 
 	<parent>
@@ -19,6 +19,6 @@
 
 	<scm>
 		<connection>scm:git:https://github.com/minova-afis/aero.minova.app.assemblies.git</connection>
-		<tag>v0.1.0</tag>
+		<tag>v0.3.0</tag>
 	</scm>
 </project>
