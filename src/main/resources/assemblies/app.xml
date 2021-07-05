@@ -12,31 +12,31 @@
 			<useDefaultExcludes>true</useDefaultExcludes>
 		</fileSet>
 		<fileSet>
-			<directory>src/main/resources/i18n</directory>
+			<directory>src/main/app/i18n</directory>
 			<includes>
 				<include>*.properties</include>
 			</includes>
 		</fileSet>
 		<fileSet>
-			<directory>src/main/resources/forms</directory>
+			<directory>src/main/app/forms</directory>
 			<includes>
 				<include>*.form.xml</include>
 			</includes>
 		</fileSet>
 		<fileSet>
-			<directory>src/main/resources/i18n</directory>
+			<directory>src/main/app/setup</directory>
 			<includes>
-				<include>*.properties</include>
+				<include>*.xml</include>
 			</includes>
 		</fileSet>
 		<fileSet>
-			<directory>src/main/resources/sql</directory>
+			<directory>src/main/app/sql</directory>
 			<includes>
 				<include>*.sql</include>
 			</includes>
 		</fileSet>
 		<fileSet>
-			<directory>src/main/resources/tables</directory>
+			<directory>src/main/app/tables</directory>
 			<includes>
 				<include>*.table.xml</include>
 			</includes>
