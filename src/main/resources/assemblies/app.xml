@@ -18,9 +18,27 @@
 			</includes>
 		</fileSet>
 		<fileSet>
+			<directory>src/main/app/images</directory>
+			<includes>
+				<include>*</include>
+			</includes>
+		</fileSet>
+		<fileSet>
 			<directory>src/main/app/forms</directory>
 			<includes>
 				<include>*.form.xml</include>
+			</includes>
+		</fileSet>
+		<fileSet>
+			<directory>src/main/app/pdf</directory>
+			<includes>
+				<include>*</include>
+			</includes>
+		</fileSet>
+		<fileSet>
+			<directory>src/main/app/plugins</directory>
+			<includes>
+				<include>*</include>
 			</includes>
 		</fileSet>
 		<fileSet>
