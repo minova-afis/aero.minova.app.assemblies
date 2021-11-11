@@ -40,6 +40,10 @@
 			<includes/>
 		</fileSet>
 		<fileSet>
+			<directory>src/main/app/reports</directory>
+			<includes/>
+		</fileSet>
+		<fileSet>
 			<directory>src/main/app/setup</directory>
 			<includes>
 				<include>*.xml</include>
