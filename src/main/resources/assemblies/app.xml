@@ -39,6 +39,7 @@
 			<directory>src/main/app/pdf</directory>
 			<includes>
 				<include>**/*</include>
+				<include>*</include>
 			</includes>
 		</fileSet>
 		<fileSet>
