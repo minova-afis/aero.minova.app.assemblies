@@ -13,9 +13,7 @@
 		</fileSet>
 		<fileSet>
 			<directory>src/main/app/files</directory>
-			<includes>
-				<include>**/*</include>
-			</includes>
+			<includes/>
 		</fileSet>
 		<fileSet>
 			<directory>src/main/app/i18n</directory>
@@ -35,15 +33,11 @@
 		</fileSet>
 		<fileSet>
 			<directory>src/main/app/pdf</directory>
-			<includes>
-				<include>**/*</include>
-			</includes>
+			<includes/>
 		</fileSet>
 		<fileSet>
 			<directory>src/main/app/plugins</directory>
-			<includes>
-				<include>**/*</include>
-			</includes>
+			<includes/>
 		</fileSet>
 		<fileSet>
 			<directory>src/main/app/setup</directory>
