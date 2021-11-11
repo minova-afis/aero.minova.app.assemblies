@@ -15,6 +15,7 @@
 			<directory>src/main/app/files</directory>
 			<includes>
 				<include>**/*</include>
+				<include>*</include>
 			</includes>
 		</fileSet>
 		<fileSet>
@@ -27,6 +28,7 @@
 			<directory>src/main/app/images</directory>
 			<includes>
 				<include>**/*</include>
+				<include>*</include>
 			</includes>
 		</fileSet>
 		<fileSet>
@@ -46,6 +48,7 @@
 			<directory>src/main/app/plugins</directory>
 			<includes>
 				<include>**/*</include>
+				<include>*</include>
 			</includes>
 		</fileSet>
 		<fileSet>
