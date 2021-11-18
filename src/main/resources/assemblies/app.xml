@@ -12,6 +12,10 @@
 			<useDefaultExcludes>true</useDefaultExcludes>
 		</fileSet>
 		<fileSet>
+			<directory>src/main/app/extensions</directory>
+			<includes/>
+		</fileSet>
+		<fileSet>
 			<directory>src/main/app/files</directory>
 			<includes/>
 		</fileSet>
