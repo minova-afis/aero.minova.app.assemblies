@@ -3,6 +3,41 @@ All wesentlichen Änderungen für dieses Projekt werden hier dokumentiert.
 
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [12.2.0] - 2021-11-19
+
+`target/extensions` können jetzt Extensions für CAS enthalten.
+Dies kann genutzt werden, um Extensions nicht als Jars einzubinden,
+sondern als Maven Abhängigkeit dazu zu packen.
+
+[source,xml]
+----
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <executions>
+        <execution>
+            <id>unpack-dependencies-extensions</id>
+            <phase>generate-resources</phase>
+            <goals>
+                <goal>unpack-dependencies</goal>
+            </goals>
+            <configuration>
+                <artifactItems>
+                    <artifactItem>[Abhängigkeiten die Eingebunden werden sollen.]
+                    </artifactItem>
+                </artifactItems>
+                <includeScope>compile</includeScope>
+                <classifier>app</classifier>
+                <includes>**/src/main/app/extensions/**</includes>
+                <outputDirectory>${project.build.directory}/extensions</outputDirectory>
+                <overWriteReleases>false</overWriteReleases>
+                <overWriteSnapshots>true</overWriteSnapshots>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+----
+
 ## [12.1.0] - 2021-11-18
 
 `src/main/app/extensions` können jetzt Extensions für CAS enthalten.

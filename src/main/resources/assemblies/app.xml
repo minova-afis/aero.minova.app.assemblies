@@ -16,6 +16,11 @@
 			<includes/>
 		</fileSet>
 		<fileSet>
+			<directory>${project.build.directory}/extensions</directory>
+			<outputDirectory>src/main/app/extensions</outputDirectory>
+			<includes/>
+		</fileSet>
+		<fileSet>
 			<directory>src/main/app/files</directory>
 			<includes/>
 		</fileSet>
